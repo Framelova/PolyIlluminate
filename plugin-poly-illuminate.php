@@ -17,7 +17,7 @@
 /* -------------------------------------------------------------------------- */
 /*                                    CONST                                   */
 /* -------------------------------------------------------------------------- */
-define("POLY_ILLUMINATE_VERSION_SCRIPTS", "1.6");
+define("POLY_ILLUMINATE_VERSION_SCRIPTS", "1.8.0");
 
 /* -------------------------------------------------------------------------- */
 /*                                  API REST                                  */
@@ -30,6 +30,7 @@ require_once plugin_dir_path(__FILE__) . "/includes/API/api-learn-dash-lessons.p
 /* -------------------------------------------------------------------------- */
 
 require_once plugin_dir_path(__FILE__) . "/public/shortcode/validate-lessons-completed.php";
+require_once plugin_dir_path(__FILE__) . "/public/shortcode/select-only-one.php";
 
 /* -------------------------------------------------------------------------- */
 /*                                    Hooks                                   */
